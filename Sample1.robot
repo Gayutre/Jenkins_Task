@@ -2,6 +2,7 @@
 Library    BuiltIn
 Library    SeleniumLibrary
 Variables    Data/url.py
+Resource    API/Comman_API.robot
 
 
 *** Keywords ***
@@ -21,3 +22,4 @@ Launch Browser
 Run Test
     Dictionary
     Launch Browser
+    Get Reques API
